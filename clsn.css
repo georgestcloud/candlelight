@@ -2,12 +2,12 @@
     /* Add additional font formats if needed */
 
     body{
-        font-family: 'Vinque Fantasy', cursive, sans-serif;
-        background: linear-gradient(to right, silver, white); 
+        font-family: Arial, Helvetica, sans-serif;
+        background: silver; 
         margin-left: 10px;
         margin-right: 10px;
     
-        padding: 10px;
+        padding: 0px;
     }
     .nav-item:hover .nav-link {
         color: gold; /* Change text color on hover */
@@ -48,7 +48,7 @@
       }
       
       /* For screens smaller than or equal to 700px */
-      @media (max-width: 700px) {
+      @media (max-width: 400px) {
         .navbar-expand-lg {
           flex-direction: column;
         }
@@ -70,12 +70,12 @@
       }
       .navbar-nav .nav-link {
         position: sticky;
-        font-size: 30px; /* Increase font size */
+        font-size: 20px; /* Increase font size */
         margin-left: 50px;
         font-weight: bold; /* Add spacing between navbar items */
       }
     
-      @media (max-width: 767px) {
+      @media (max-width: 400px) {
         .navbar-toggler {
           display: block;
         }
@@ -89,19 +89,20 @@
       }
     
     h1 {
+      justify-content: center;
     text-align: center;
     text-decoration-color: purple;
     margin-bottom: 36px;
     color: purple;
-    text-decoration: double;
-    font-style: italic;
-    font-family: 'Vinque Fantasy', cursive;
+    font-size: 17px;
+    font-style: bold;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: left;
       font-size: 36px;
       margin: 0;
       padding: 0;
     }
-    @media screen and (max-width: 700px) {
+    @media screen and (max-width: 400px) {
         .cls {
             width: 80px; /* Adjust width as needed */
             height: 80px; /* Adjust height as needed */
@@ -118,14 +119,14 @@
       }
      .badge { color: gold;}
     
-    @media (max-width: 750px) {
+    @media (max-width: 400px) {
         h1 {
             font-weight: bolder;
-          font-size: 16px;
+          font-size: 15px;
         margin-bottom: 20px;
         }
       }
-      @media (max-width: 600px) {
+      @media (max-width: 400px) {
         img.icon {
           max-width: 100px;
           height: 100px;
@@ -141,7 +142,7 @@
         margin-right: 10px;
       }
       
-      @media (max-width: 600px) {
+      @media (max-width: 400px) {
         header {
           flex-direction: column;
         }
