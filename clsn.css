@@ -3,11 +3,9 @@
 
     body{
         font-family: Arial, Helvetica, sans-serif;
-        background: silver; 
-        margin-left: 10px;
-        margin-right: 10px;
-    
-        padding: 0px;
+    background: silver; 
+    margin: 0; /* Adjusted */
+    padding: 0px;
     }
     .nav-item:hover .nav-link {
         color: gold; /* Change text color on hover */
@@ -111,11 +109,9 @@
     
       /* Ensure images fit within the carousel container */
       .carousel img {
-      height: 400px;
-      max-height: 70%;
-        width: auto;
-        max-width: 100%;
-        margin: auto;
+    max-width: 100%; /* Adjusted */
+    height: auto; /* Adjusted */
+    margin: auto;
       }
      .badge { color: gold;}
     
