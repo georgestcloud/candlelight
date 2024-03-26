@@ -3,11 +3,13 @@
 <head>
 <title>Candlelight #weTSR
 </title>
+<link rel="icon" type="image/png" href="logo.svg" 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <style>
+
 * {
   box-sizing: border-box;
 }
@@ -28,7 +30,7 @@ background-color: whitesmoke;
 /* Style the top navigation bar */
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: purple;
 }
 
 /* Style the topnav links */
@@ -84,6 +86,25 @@ background-color: whitesmoke;
 }
 
 
+
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-item {
+  background: whitesmoke;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  flex: 1 0 200px; /* This means "flex-grow: 1, flex-shrink: 1, flex-basis: 200px" */
+}
+
+
+
+
 .button {
     border-radius: 25px;
     background-color: transparent;
@@ -119,26 +140,42 @@ font-family: 'Times New Roman', Times, serif;
 
 <div class="header">
   <h1><img src="logo.svg" alt="Logo" style="height: 150px; width: 250px;"></h1>
-  <h1> Candlelight Foundation For Special Needs</h1>
+  <h1> Candlelight Foundation For Children with Special Needs</h1>
 </div>
 
 <div class="topnav">
   <a href="#">Home</a>
-  <a href="#">weTSR</a>
+  <a href="https://forms.gle/umWyhRKKpjqyB9G48">weTSR</a>
   <a href="#contact">Cotact Us</a>
-</div>
-<div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-<div class="row">
-  <div class="column side" id="#home">
-    <h2>CLSN</h2>
-    <p>The Candlelight Foundation for Children with Special Needs is a dedicated non-profit organization committed to making a meaningful difference in the lives of children with exceptionalities and their families.<br> Join weTSR to discover premium insights on Autism, ADHD and Dyslexia </p>    
-</div>
   
-  <div class="column middle"><p>
-<img src="wetsr.jpg" alt="Logo" style="height: 270px; width: 290px;"></p>
+
+</a>
+
+</div>
+
+
+
+<div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+<div class="flex-container">
+  <div class="flex-item"> <h3> CandleLight Foundation</h3><p>The Candlelight Foundation for Children with Special Needs is a dedicated non-profit organization committed to making a meaningful difference in the lives of children with exceptionalities and their families.</p>
+    <a href="https://forms.gle/umWyhRKKpjqyB9G48">
+      <button class="button"><b>#weTSR</b>
+  </button>
+  </a></div>
+
+
+  <div class="flex-item"><p>
+    <img src="wetsr.jpg" alt="Logo" style="height: 550px; width: 350px;"></p>
+    <a href="https://forms.gle/umWyhRKKpjqyB9G48">
+      <button class="button"><b>#weTSR</b>
+  </button>
+  </a>
+  
   </div>
   
-  <div class="column side">
+  
+  
+  <div class="flex-item">
     <h2>weTSR</h2>
     <h4><span class="badge bg-secondary">T - Train</span></h4> <p>we train parents to become behavioral therapist for their child</p><hr>
                 <h4><span class="badge bg-secondary">S - Support</span></h4> <p>we understand the commitment and effort recquired, we support you with neccessary assistance to care for your child</p><hr>
@@ -150,8 +187,8 @@ font-family: 'Times New Roman', Times, serif;
                 </a>
 
   </div>
-</div>
-<hr> </div>
+</div> </div>
+
 
 <h3 id="contact" style="text-align: center";>Contact Us</b></h3> 
 
@@ -174,7 +211,9 @@ font-family: 'Times New Roman', Times, serif;
   <img src="logo.svg" alt="Logo" class="logo" style="height: 100px; width: 100px;">
   
   <!-- Footer content -->
-  <p>The Candlelight Foundation for Children with Special Needs is a dedicated non-profit organization committed to making a meaningful difference in the lives of children with exceptionalities and their families.</p><hr>
+  <p>The Candlelight Foundation for Children with Special Needs is a dedicated non-profit organization committed to making a meaningful difference in the lives of children with exceptionalities and their families.
+  </p>
+  <hr>
   <p style="font-size: 12px; float: left;">
     ©The CandleLight Foundation 2024. All Rights Reserved.</p>
 </div>
@@ -186,5 +225,4 @@ font-family: 'Times New Roman', Times, serif;
   
 </body>
 </html>
-
 
